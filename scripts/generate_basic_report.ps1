@@ -51,3 +51,4 @@ Write-Host "  [✗] No impact analysis" -ForegroundColor Yellow
 Write-Host "  [✗] No risk assessment" -ForegroundColor Yellow
 Write-Host "  [✗] No recommendations" -ForegroundColor Yellow
 Write-Host ""
+
