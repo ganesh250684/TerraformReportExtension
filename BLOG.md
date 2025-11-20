@@ -218,11 +218,60 @@ Your beautiful PDF report opens automatically. That's it.
 - No cloud service, no data collection
 - Perfect for sensitive production environments
 
-### 💰 Completely Free
-- **$0 forever**
-- Unlimited reports
-- No trials, no subscriptions, no catches
-- Open source (MIT License)
+### 💰 Free Forever (With Smart Upgrade Path)
+
+**What's Free Right Now:**
+- ✅ **Unlimited basic reports** - Forever, no limits, no cost
+- ✅ **Professional PDFs** - Clean, formatted, stakeholder-ready
+- ✅ **All core features** - Parse plans, extract changes, generate reports
+- ✅ **Commercial use allowed** - Use it at work, no restrictions
+- ✅ **Open source (MIT)** - Audit the code, contribute, fork it
+
+**What You're Missing (For Now):**
+The basic reports give you the *what* — but not the *why*, *how*, or *what if*:
+- ❌ No risk assessment (which changes are dangerous?)
+- ❌ No impact analysis (what breaks if this fails?)
+- ❌ No rollback procedures (how to undo this?)
+- ❌ No testing recommendations (what should QA verify?)
+- ❌ No dependency mapping (what else is affected?)
+
+**Coming Soon: AI-Enhanced Reports (Worth Every Penny)**
+
+Version 1.1 will add **intelligent analysis** that transforms your reports from documentation into **decision-making tools**:
+
+**🤖 What AI Adds:**
+- 🎯 **Risk Scoring** - Each change rated: Low/Medium/High/Critical
+- 🔍 **Impact Analysis** - "This security group change affects 12 EC2 instances in prod"
+- ⚠️ **Danger Detection** - "WARNING: Destroying this RDS instance is irreversible"
+- 🧪 **Test Plans** - Auto-generated checklist: "Verify these 7 endpoints still work"
+- 🔄 **Rollback Guides** - Step-by-step procedures if deployment fails
+- 📊 **Trend Analysis** - "You're creating 3x more resources than usual"
+
+**💎 AI Pricing (Fair & Flexible):**
+- **Free Tier:** 10 AI reports/month (perfect for trying it out)
+- **Pro Tier:** $9.99/month unlimited AI reports
+- **Bring Your Own Key:** Use your OpenAI API key = unlimited reports at cost (~$0.10 per report)
+- **Enterprise:** Custom integrations, self-hosted options
+
+**Why AI Will Be Worth It:**
+
+> *Imagine: It's 4 PM Friday. You generate a report. AI immediately flags:*  
+> *"⚠️ HIGH RISK: This change replaces production database. Estimated downtime: 5-10 min. Rollback requires restoring from backup (RTO: 30 min). Recommendation: Schedule for maintenance window."*
+
+**That one warning could save you from a career-limiting incident.**
+
+**The Math:**
+- Basic report: Shows you're replacing `aws_db_instance.prod`
+- AI report: Tells you **why it's dangerous**, **what breaks**, **how to fix it**, and **when to do it**
+- Cost: $10/month vs potential $10,000+ cost of one production outage
+
+**Our Promise:**
+- ✅ Basic reports **free forever** (no bait-and-switch)
+- ✅ AI features priced **fairly** (cheaper than one engineer-hour per month)
+- ✅ BYOK option (use your own API key = pay only OpenAI's cost)
+- ✅ All pricing **transparent** (no hidden fees, no seat licenses)
+
+**Try basic now. Upgrade to AI when you need the intelligence.** No pressure, no rush.
 
 ### 🎨 Professional Output
 - Clean, scannable tables
@@ -325,15 +374,27 @@ Don't believe it works this well? **Try it yourself in 2 minutes:**
 ## Frequently Asked Questions
 
 ### Is it really free?
-**Yes!** 100% free, no limits, no trials. Open source MIT License.
+**Yes!** Basic reports are 100% free forever — unlimited usage, no trials, no time limits. Open source MIT License. This is not a freemium trap; the core value is and will always be free.
+
+### What about AI features? Will you take away the free version?
+**Never.** Basic reports stay free forever. We're adding *optional* AI features in v1.1 for users who want:
+- Risk assessment and impact analysis
+- Automated testing recommendations
+- Rollback procedures
+
+**Pricing will be:**
+- Free tier: 10 AI reports/month (try before you buy)
+- Pro: $9.99/month unlimited AI reports
+- BYOK: Use your own OpenAI key = unlimited at cost price (~$0.10/report)
+
+Think of it like GitHub: free for core features, paid for advanced intelligence. You choose what you need.
 
 ### Does it work offline?
-**Yes!** No API calls, no internet required. Everything runs locally.
+**Yes!** Basic mode: 100% offline, no API calls, no internet required. Everything runs locally.  
+AI mode (coming soon): Requires internet for AI analysis, but your code never leaves your control (we only send the parsed plan summary, not your actual infrastructure code).
 
-### What about AI features?
-Basic reports are free forever. AI-enhanced analysis coming in v1.1 with:
-- 10 AI reports/month free
-- Unlimited with your own OpenAI API key
+### Is the AI pricing worth it?
+If you've ever caused a production incident from misreading a Terraform plan, **yes**. One avoided outage pays for years of AI reports. But try the free basic reports first — they solve 80% of the problem for $0.
 
 ### Does it support Mac/Linux?
 Currently Windows-optimized. Mac/Linux support coming in v1.1.
@@ -346,6 +407,31 @@ Absolutely. Everything runs locally on your machine. No data collection, no tele
 
 ### What if I find a bug?
 [Report it here!](https://github.com/ganesh250684/TerraformReportExtension/issues) We fix issues fast.
+
+---
+
+## Why We're Not Charging for Basic Reports
+
+**You might be wondering:** *"If this saves so much time, why is it free?"*
+
+**Fair question. Here's our honest answer:**
+
+### 1. **We Were You**
+I spent years manually documenting Terraform plans. I know the pain. Basic report generation should be **table stakes** — not a luxury. Every engineer deserves this, regardless of budget.
+
+### 2. **Community First**
+The DevOps community has given us so much (Terraform, VS Code, countless open-source tools). This is our way of giving back. We believe in open source.
+
+### 3. **AI is Where the Real Value Lives**
+Basic reports solve visibility. AI solves decision-making. We're not trying to monetize the easy stuff — we're building something genuinely premium for those who need it.
+
+### 4. **We Want You to Trust Us**
+Free basic reports forever = no bait-and-switch, no rug pull. If you love it, maybe you'll try AI features when they launch. If not, no hard feelings. We're building for the long term.
+
+### 5. **It Costs Us Almost Nothing**
+Basic reports run on your machine. No servers, no API calls, no ongoing costs. Why charge for something that costs us nothing to deliver?
+
+**Bottom line:** We're not a VC-funded startup burning cash on growth-at-all-costs. We're engineers building tools we wish existed. Basic features stay free. Advanced intelligence will be paid. Everyone wins.
 
 ---
 
