@@ -1,0 +1,149 @@
+{
+  "name": "terraform-report-generator",
+  "displayName": "Terraform Report Generator",
+  "description": "Transform Terraform plan output into beautiful, human-readable PDF reports with AI-powered analysis",
+  "version": "0.1.0",
+  "publisher": "your-publisher-name",
+  "icon": "resources/icon.png",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other",
+    "Formatters",
+    "Visualization"
+  ],
+  "keywords": [
+    "terraform",
+    "infrastructure",
+    "devops",
+    "report",
+    "pdf",
+    "analysis",
+    "iac",
+    "documentation"
+  ],
+  "activationEvents": [
+    "onCommand:terraform-report.generate",
+    "onCommand:terraform-report.generateBasic",
+    "onCommand:terraform-report.generateAI",
+    "onLanguage:terraform"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "terraform-report.generate",
+        "title": "Terraform: Generate Plan Report",
+        "icon": "$(file-pdf)"
+      },
+      {
+        "command": "terraform-report.generateBasic",
+        "title": "Terraform: Generate Basic Report (No AI)",
+        "icon": "$(file)"
+      },
+      {
+        "command": "terraform-report.generateAI",
+        "title": "Terraform: Generate AI-Enhanced Report",
+        "icon": "$(sparkle)"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "resourceExtname == .txt",
+          "command": "terraform-report.generate",
+          "group": "terraform"
+        }
+      ],
+      "explorer/context": [
+        {
+          "when": "resourceExtname == .txt",
+          "command": "terraform-report.generate",
+          "group": "terraform"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Terraform Report Generator",
+      "properties": {
+        "terraformReport.mode": {
+          "type": "string",
+          "enum": ["auto", "basic", "ai"],
+          "default": "auto",
+          "description": "Report generation mode: auto-detect complexity, always basic, or always AI"
+        },
+        "terraformReport.aiProvider": {
+          "type": "string",
+          "enum": ["builtin", "openai", "none"],
+          "default": "builtin",
+          "description": "AI provider: use built-in service, your own OpenAI key, or disable AI"
+        },
+        "terraformReport.openAiKey": {
+          "type": "string",
+          "default": "",
+          "description": "Your OpenAI API key (optional, for unlimited AI reports)",
+          "markdownDescription": "Your OpenAI API key. Get one at [platform.openai.com](https://platform.openai.com)"
+        },
+        "terraformReport.autoDetectThreshold": {
+          "type": "object",
+          "default": {
+            "destroyCount": 1,
+            "changeCount": 10,
+            "totalChanges": 15
+          },
+          "description": "Thresholds for auto-detecting when to use AI analysis"
+        },
+        "terraformReport.defaultExport": {
+          "type": "string",
+          "enum": ["pdf", "markdown", "both"],
+          "default": "pdf",
+          "description": "Default export format"
+        },
+        "terraformReport.openAfterGenerate": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically open report after generation"
+        },
+        "terraformReport.templateStyle": {
+          "type": "string",
+          "enum": ["professional", "minimal", "detailed"],
+          "default": "professional",
+          "description": "Report template style"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.80.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.45.0",
+    "typescript": "^5.1.0",
+    "@vscode/test-electron": "^2.3.0"
+  },
+  "dependencies": {
+    "marked": "^9.0.0",
+    "puppeteer-core": "^21.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/terraform-report-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/terraform-report-generator/issues"
+  },
+  "homepage": "https://github.com/yourusername/terraform-report-generator#readme",
+  "license": "MIT"
+}

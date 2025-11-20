@@ -1,0 +1,418 @@
+Acquiring state lock. This may take a few moments...
+module.agw_nsg[0].data.azurerm_network_watcher.NetworkWatcher_eastus: Reading...
+module.receipt_proc.module.this_web_nsg.data.azurerm_network_watcher.NetworkWatcher_eastus: Reading...
+module.std_rpt.module.this_web_nsg.data.azurerm_network_watcher.NetworkWatcher_eastus: Reading...
+azurerm_marketplace_agreement.sonarqube: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/providers/Microsoft.MarketplaceOrdering/agreements/madarsonitllc1614702968211/offers/0001-com-ubuntu-server-focal/plans/hourly]
+module.data_factory[0].azurerm_data_factory.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.DataFactory/factories/ge-qc-adf]
+module.web_ep_nsg.data.azurerm_network_watcher.NetworkWatcher_eastus: Reading...
+module.autofeed_eml.module.this_web_nsg.data.azurerm_network_watcher.NetworkWatcher_eastus: Reading...
+module.mobile_api.module.this_web_nsg.data.azurerm_network_watcher.NetworkWatcher_eastus: Reading...
+data.azurerm_client_config.this: Reading...
+azurerm_resource_group.rg: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg]
+module.service_api.module.this_web_nsg.data.azurerm_network_watcher.NetworkWatcher_eastus: Reading...
+module.web_app.module.this_web_nsg.data.azurerm_network_watcher.NetworkWatcher_eastus: Reading...
+module.kv_cde_secrets_nsg.data.azurerm_network_watcher.NetworkWatcher_eastus: Reading...
+module.autofeed_cc.module.this_web_nsg.data.azurerm_network_watcher.NetworkWatcher_eastus: Reading...
+module.kv_appconfig_nsg.data.azurerm_network_watcher.NetworkWatcher_eastus: Reading...
+data.azurerm_client_config.this: Read complete after 0s [id=Y2xpZW50Q29uZmlncy9jbGllbnRJZD0wNGIwNzc5NS04ZGRiLTQ2MWEtYmJlZS0wMmY5ZTFiZjdiNDY7b2JqZWN0SWQ9NzE3YjBmMzMtY2NmZC00MzhjLTgxYjUtNWMxMWExNjY2ZDRkO3N1YnNjcmlwdGlvbklkPTY0NzVkMmU0LTQzZTItNGRlNS1iMTRmLTZhMjUwNDExMjIwOTt0ZW5hbnRJZD01OWFjYjY0ZC03ZjNkLTQ5MjAtYjQwZS1lMzU2N2E0NGQyNGU=]
+azurerm_user_assigned_identity.sql_server: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/ge-qc-sql-id]
+module.receipt_proc.azurerm_service_plan.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/serverFarms/ge-qc-receipt-proc-aps]
+azurerm_private_dns_zone.redisdnszone: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateDnsZones/privatelink.redis.cache.windows.net]
+azurerm_public_ip.vnetgateway: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/publicIPAddresses/ge-qc-gw-pip]
+azurerm_private_dns_zone.sqldnszone: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateDnsZones/privatelink.database.windows.net]
+module.autofeed_eml.azurerm_service_plan.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/serverFarms/ge-qc-autofeed-eml-aps]
+azurerm_private_dns_zone.kvdnszone: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateDnsZones/privatelink.vaultcore.azure.net]
+module.web_app.module.this_web_nsg.data.azurerm_network_watcher.NetworkWatcher_eastus: Read complete after 1s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus]
+azurerm_private_dns_zone.cognitive: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateDnsZones/privatelink.cognitiveservices.azure.com]
+module.agw_nsg[0].data.azurerm_network_watcher.NetworkWatcher_eastus: Read complete after 1s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus]
+module.mobile_api.azurerm_service_plan.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/serverFarms/ge-qc-mobile-api-aps]
+module.kv_appconfig_nsg.data.azurerm_network_watcher.NetworkWatcher_eastus: Read complete after 1s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus]
+module.kv_cde_secrets.azurerm_key_vault.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.KeyVault/vaults/ge-qc-kv-cde-secrets]
+module.kv_cde_secrets_nsg.data.azurerm_network_watcher.NetworkWatcher_eastus: Read complete after 1s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus]
+module.web_ep_nsg.azurerm_network_security_group.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-web-ep-nsg]
+module.autofeed_cc.module.this_web_nsg.data.azurerm_network_watcher.NetworkWatcher_eastus: Read complete after 1s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus]
+module.autofeed_cc.azurerm_service_plan.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/serverFarms/ge-qc-autofeed-data-sync-aps]
+module.std_rpt.module.this_web_nsg.data.azurerm_network_watcher.NetworkWatcher_eastus: Read complete after 1s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus]
+module.agw_nsg[0].azurerm_network_security_group.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-agw-nsg]
+module.autofeed_eml.module.this_web_nsg.data.azurerm_network_watcher.NetworkWatcher_eastus: Read complete after 1s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus]
+module.web_app.module.this_web_nsg.azurerm_network_security_group.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-web-app-nsg]
+module.mobile_api.module.this_web_nsg.data.azurerm_network_watcher.NetworkWatcher_eastus: Read complete after 1s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus]
+module.receipt_proc.module.this_web_nsg.data.azurerm_network_watcher.NetworkWatcher_eastus: Read complete after 1s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus]
+azurerm_public_ip.appgatewayip[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/publicIPAddresses/ge-qc-agw-pip]
+module.mobile_api.module.this_web_nsg.azurerm_network_security_group.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-mobile-api-nsg]
+module.service_api.module.this_web_nsg.data.azurerm_network_watcher.NetworkWatcher_eastus: Read complete after 1s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus]
+module.std_rpt.azurerm_service_plan.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/serverFarms/ge-qc-std-rpt-aps]
+module.kv_appconfig.azurerm_key_vault.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.KeyVault/vaults/ge-qc-kv-appconfig]
+module.std_rpt.azurerm_user_assigned_identity.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/ge-qc-std-rpt-id]
+module.autofeed_cc.module.this_web_nsg.azurerm_network_security_group.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-autofeed-data-sync-nsg]
+module.web_ep_nsg.data.azurerm_network_watcher.NetworkWatcher_eastus: Read complete after 2s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus]
+module.log_analytics_workspace.azurerm_log_analytics_workspace.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.OperationalInsights/workspaces/ge-qc-la]
+azurerm_private_dns_zone.queuednszone: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateDnsZones/privatelink.queue.core.windows.net]
+azurerm_private_dns_zone.blobdnszone: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net]
+module.std_rpt.module.this_web_nsg.azurerm_network_security_group.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-std-rpt-nsg]
+azurerm_private_dns_zone.azurewebsites: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateDnsZones/privatelink.azurewebsites.net]
+azurerm_user_assigned_identity.receipt_storage: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/ge-qc-receipt-storage-id]
+azurerm_monitor_action_group.action_group: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/actionGroups/action]
+azurerm_private_dns_zone.dns: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateDnsZones/ge-qc.private]
+azurerm_user_assigned_identity.appgatewayid[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/ge-qc-agw-id]
+module.redis[0].azurerm_redis_cache.redis: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Cache/redis/ge-qc-redis]
+module.service_api.azurerm_user_assigned_identity.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/ge-qc-service-api-id]
+module.service_api.azurerm_service_plan.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/serverFarms/ge-qc-service-api-aps]
+module.web_app.azurerm_user_assigned_identity.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/ge-qc-web-app-id]
+module.web_app.azurerm_service_plan.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/serverFarms/ge-qc-web-app-aps]
+module.kv_cert.azurerm_key_vault.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.KeyVault/vaults/ge-qc-kv-cert]
+module.vnet.azurerm_virtual_network.vnet: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet]
+module.autofeed_eml.azurerm_user_assigned_identity.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/ge-qc-autofeed-eml-id]
+module.kv_appconfig_nsg.azurerm_network_security_group.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-kv-appconfig-nsg]
+module.blob_reporting[0].azurerm_storage_account.blob: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Storage/storageAccounts/geqcrept]
+module.blob[0].azurerm_storage_account.blob: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Storage/storageAccounts/geqcst]
+module.kv_cde_secrets_nsg.azurerm_network_security_group.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-kv-cde-secrets-nsg]
+module.mobile_api.azurerm_user_assigned_identity.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/ge-qc-mobile-api-id]
+module.receipt_proc.azurerm_user_assigned_identity.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/ge-qc-receipt-proc-id]
+module.service_api.module.this_web_nsg.azurerm_network_security_group.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-service-api-nsg]
+module.autofeed_eml.module.this_web_nsg.azurerm_network_security_group.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-autofeed-eml-nsg]
+module.receipt_proc.module.this_web_nsg.azurerm_network_security_group.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-receipt-proc-nsg]
+module.autofeed_cc.azurerm_user_assigned_identity.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/ge-qc-autofeed-data-sync-id]
+module.web_ep_nsg.azurerm_network_security_rule.this["DenyAllInBound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-web-ep-nsg/securityRules/DenyAllInBound]
+module.web_ep_nsg.azurerm_network_security_rule.this["AllowAnyHTTPInbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-web-ep-nsg/securityRules/AllowAnyHTTPInbound]
+module.web_ep_nsg.azurerm_network_security_rule.this["AllowAnyHTTPSInbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-web-ep-nsg/securityRules/AllowAnyHTTPSInbound]
+module.web_app.module.this_web_nsg.azurerm_network_security_rule.this["AllowAnyHTTPSInbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-web-app-nsg/securityRules/AllowAnyHTTPSInbound]
+module.web_app.module.this_web_nsg.azurerm_network_security_rule.this["DenyAllInBound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-web-app-nsg/securityRules/DenyAllInBound]
+module.web_app.module.this_web_nsg.azurerm_network_security_rule.this["AllowSQLOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-web-app-nsg/securityRules/AllowSQLOutbound]
+module.web_app.module.this_web_nsg.azurerm_network_security_rule.this["AllowDNSOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-web-app-nsg/securityRules/AllowDNSOutbound]
+module.web_app.module.this_web_nsg.azurerm_network_security_rule.this["AllowAzureADOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-web-app-nsg/securityRules/AllowAzureADOutbound]
+module.web_app.module.this_web_nsg.azurerm_network_security_rule.this["AllowSFTPOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-web-app-nsg/securityRules/AllowSFTPOutbound]
+module.web_app.module.this_web_nsg.azurerm_network_security_rule.this["AllowAnyHTTPSOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-web-app-nsg/securityRules/AllowAnyHTTPSOutbound]
+module.web_app.module.this_web_nsg.azurerm_network_security_rule.this["DenyAllOutBound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-web-app-nsg/securityRules/DenyAllOutBound]
+module.mobile_api.module.this_web_nsg.azurerm_network_security_rule.this["AllowAzureADOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-mobile-api-nsg/securityRules/AllowAzureADOutbound]
+module.mobile_api.module.this_web_nsg.azurerm_network_security_rule.this["AllowDNSOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-mobile-api-nsg/securityRules/AllowDNSOutbound]
+module.mobile_api.module.this_web_nsg.azurerm_network_security_rule.this["AllowSQLOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-mobile-api-nsg/securityRules/AllowSQLOutbound]
+module.mobile_api.module.this_web_nsg.azurerm_network_security_rule.this["DenyAllOutBound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-mobile-api-nsg/securityRules/DenyAllOutBound]
+module.mobile_api.module.this_web_nsg.azurerm_network_security_rule.this["DenyAllInBound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-mobile-api-nsg/securityRules/DenyAllInBound]
+module.mobile_api.module.this_web_nsg.azurerm_network_security_rule.this["AllowSFTPOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-mobile-api-nsg/securityRules/AllowSFTPOutbound]
+module.mobile_api.module.this_web_nsg.azurerm_network_security_rule.this["AllowAnyHTTPSOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-mobile-api-nsg/securityRules/AllowAnyHTTPSOutbound]
+module.mobile_api.module.this_web_nsg.azurerm_network_security_rule.this["AllowAnyHTTPSInbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-mobile-api-nsg/securityRules/AllowAnyHTTPSInbound]
+module.agw_nsg[0].azurerm_network_security_rule.this["AllowAnyHTTPInbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-agw-nsg/securityRules/AllowAnyHTTPInbound]
+module.agw_nsg[0].azurerm_network_security_rule.this["AllowAnyHTTPSInbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-agw-nsg/securityRules/AllowAnyHTTPSInbound]
+module.agw_nsg[0].azurerm_network_security_rule.this["DenyAllInBound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-agw-nsg/securityRules/DenyAllInBound]
+module.agw_nsg[0].azurerm_network_security_rule.this["app-gateway-health-check"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-agw-nsg/securityRules/app-gateway-health-check]
+module.std_rpt.module.this_web_nsg.azurerm_network_security_rule.this["AllowAnyHTTPSOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-std-rpt-nsg/securityRules/AllowAnyHTTPSOutbound]
+module.std_rpt.module.this_web_nsg.azurerm_network_security_rule.this["AllowSFTPOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-std-rpt-nsg/securityRules/AllowSFTPOutbound]
+module.std_rpt.module.this_web_nsg.azurerm_network_security_rule.this["AllowSQLOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-std-rpt-nsg/securityRules/AllowSQLOutbound]
+module.std_rpt.module.this_web_nsg.azurerm_network_security_rule.this["DenyAllOutBound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-std-rpt-nsg/securityRules/DenyAllOutBound]
+module.std_rpt.module.this_web_nsg.azurerm_network_security_rule.this["DenyAllInBound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-std-rpt-nsg/securityRules/DenyAllInBound]
+module.std_rpt.module.this_web_nsg.azurerm_network_security_rule.this["AllowAnyHTTPSInbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-std-rpt-nsg/securityRules/AllowAnyHTTPSInbound]
+module.std_rpt.module.this_web_nsg.azurerm_network_security_rule.this["AllowAzureADOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-std-rpt-nsg/securityRules/AllowAzureADOutbound]
+module.std_rpt.module.this_web_nsg.azurerm_network_security_rule.this["AllowDNSOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-std-rpt-nsg/securityRules/AllowDNSOutbound]
+module.autofeed_cc.module.this_web_nsg.azurerm_network_security_rule.this["AllowDNSOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-autofeed-data-sync-nsg/securityRules/AllowDNSOutbound]
+module.autofeed_cc.module.this_web_nsg.azurerm_network_security_rule.this["AllowAzureADOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-autofeed-data-sync-nsg/securityRules/AllowAzureADOutbound]
+module.autofeed_cc.module.this_web_nsg.azurerm_network_security_rule.this["DenyAllOutBound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-autofeed-data-sync-nsg/securityRules/DenyAllOutBound]
+module.autofeed_cc.module.this_web_nsg.azurerm_network_security_rule.this["AllowAnyHTTPSInbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-autofeed-data-sync-nsg/securityRules/AllowAnyHTTPSInbound]
+module.autofeed_cc.module.this_web_nsg.azurerm_network_security_rule.this["AllowAnyHTTPSOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-autofeed-data-sync-nsg/securityRules/AllowAnyHTTPSOutbound]
+module.autofeed_cc.module.this_web_nsg.azurerm_network_security_rule.this["AllowSQLOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-autofeed-data-sync-nsg/securityRules/AllowSQLOutbound]
+module.autofeed_cc.module.this_web_nsg.azurerm_network_security_rule.this["DenyAllInBound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-autofeed-data-sync-nsg/securityRules/DenyAllInBound]
+module.autofeed_cc.module.this_web_nsg.azurerm_network_security_rule.this["AllowSFTPOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-autofeed-data-sync-nsg/securityRules/AllowSFTPOutbound]
+module.kv_appconfig_nsg.azurerm_network_security_rule.this["AllowAnyHTTPSInbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-kv-appconfig-nsg/securityRules/AllowAnyHTTPSInbound]
+module.receipt_proc.module.this_web_nsg.azurerm_network_security_rule.this["AllowAnyHTTPSOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-receipt-proc-nsg/securityRules/AllowAnyHTTPSOutbound]
+module.receipt_proc.module.this_web_nsg.azurerm_network_security_rule.this["AllowAzureADOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-receipt-proc-nsg/securityRules/AllowAzureADOutbound]
+module.receipt_proc.module.this_web_nsg.azurerm_network_security_rule.this["AllowDNSOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-receipt-proc-nsg/securityRules/AllowDNSOutbound]
+module.receipt_proc.module.this_web_nsg.azurerm_network_security_rule.this["AllowSQLOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-receipt-proc-nsg/securityRules/AllowSQLOutbound]
+module.receipt_proc.module.this_web_nsg.azurerm_network_security_rule.this["DenyAllOutBound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-receipt-proc-nsg/securityRules/DenyAllOutBound]
+module.receipt_proc.module.this_web_nsg.azurerm_network_security_rule.this["AllowAnyHTTPSInbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-receipt-proc-nsg/securityRules/AllowAnyHTTPSInbound]
+module.receipt_proc.module.this_web_nsg.azurerm_network_security_rule.this["DenyAllInBound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-receipt-proc-nsg/securityRules/DenyAllInBound]
+module.kv_cde_secrets_nsg.azurerm_network_security_rule.this["AllowAnyHTTPSInbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-kv-cde-secrets-nsg/securityRules/AllowAnyHTTPSInbound]
+module.autofeed_eml.module.this_web_nsg.azurerm_network_security_rule.this["AllowAnyHTTPSInbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-autofeed-eml-nsg/securityRules/AllowAnyHTTPSInbound]
+module.autofeed_eml.module.this_web_nsg.azurerm_network_security_rule.this["DenyAllInBound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-autofeed-eml-nsg/securityRules/DenyAllInBound]
+module.autofeed_eml.module.this_web_nsg.azurerm_network_security_rule.this["AllowDNSOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-autofeed-eml-nsg/securityRules/AllowDNSOutbound]
+module.autofeed_eml.module.this_web_nsg.azurerm_network_security_rule.this["AllowSFTPOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-autofeed-eml-nsg/securityRules/AllowSFTPOutbound]
+module.autofeed_eml.module.this_web_nsg.azurerm_network_security_rule.this["DenyAllOutBound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-autofeed-eml-nsg/securityRules/DenyAllOutBound]
+module.autofeed_eml.module.this_web_nsg.azurerm_network_security_rule.this["AllowSQLOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-autofeed-eml-nsg/securityRules/AllowSQLOutbound]
+module.autofeed_eml.module.this_web_nsg.azurerm_network_security_rule.this["AllowAnyHTTPSOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-autofeed-eml-nsg/securityRules/AllowAnyHTTPSOutbound]
+module.autofeed_eml.module.this_web_nsg.azurerm_network_security_rule.this["AllowAzureADOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-autofeed-eml-nsg/securityRules/AllowAzureADOutbound]
+module.service_api.module.this_web_nsg.azurerm_network_security_rule.this["DenyAllOutBound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-service-api-nsg/securityRules/DenyAllOutBound]
+module.service_api.module.this_web_nsg.azurerm_network_security_rule.this["AllowAnyHTTPSOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-service-api-nsg/securityRules/AllowAnyHTTPSOutbound]
+module.service_api.module.this_web_nsg.azurerm_network_security_rule.this["AllowSQLOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-service-api-nsg/securityRules/AllowSQLOutbound]
+module.service_api.module.this_web_nsg.azurerm_network_security_rule.this["DenyAllInBound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-service-api-nsg/securityRules/DenyAllInBound]
+module.service_api.module.this_web_nsg.azurerm_network_security_rule.this["AllowAzureADOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-service-api-nsg/securityRules/AllowAzureADOutbound]
+module.service_api.module.this_web_nsg.azurerm_network_security_rule.this["AllowAnyHTTPSInbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-service-api-nsg/securityRules/AllowAnyHTTPSInbound]
+module.service_api.module.this_web_nsg.azurerm_network_security_rule.this["AllowDNSOutbound"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-service-api-nsg/securityRules/AllowDNSOutbound]
+azurerm_virtual_network_peering.with_old: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/virtualNetworkPeerings/ge-qc-with-old]
+azurerm_private_dns_zone_virtual_network_link.azurewebsitesdnszonelink: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateDnsZones/privatelink.azurewebsites.net/virtualNetworkLinks/azurewebsites-dnszonelink]
+azurerm_private_dns_zone_virtual_network_link.kvdnszonednszonelink: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateDnsZones/privatelink.vaultcore.azure.net/virtualNetworkLinks/kvdnszone-dnszonelink]
+azurerm_private_dns_resolver.dns_resolver: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/dnsResolvers/ge-qc-dns-resolver]
+azurerm_private_dns_zone_virtual_network_link.sqldnszonednszonelink: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateDnsZones/privatelink.database.windows.net/virtualNetworkLinks/sqldnszone-dnszonelink]
+azurerm_virtual_network_peering.with_new: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/gorilla-apps-qc-resoucegroup/providers/Microsoft.Network/virtualNetworks/gorilla-apps-qc-reports-virtual-network/virtualNetworkPeerings/ge-qc-with-new]
+azurerm_private_dns_zone_virtual_network_link.redislink[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateDnsZones/privatelink.redis.cache.windows.net/virtualNetworkLinks/redis-dnszonelink]
+azurerm_private_dns_zone_virtual_network_link.bloblink: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net/virtualNetworkLinks/blob_link]
+azurerm_private_dns_zone_virtual_network_link.cognitivednszonelink: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateDnsZones/privatelink.cognitiveservices.azure.com/virtualNetworkLinks/cognitive-dnszonelink]
+azurerm_private_dns_zone_virtual_network_link.queuelink: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateDnsZones/privatelink.queue.core.windows.net/virtualNetworkLinks/queue_link]
+azurerm_private_dns_zone_virtual_network_link.link: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateDnsZones/ge-qc.private/virtualNetworkLinks/ge-qc-dns-link]
+azurerm_role_assignment.rbac_cognitive_services: Refreshing state... [id=/subscriptions/77be4323-c969-4d87-b615-84b0d0bc4502/resourceGroups/gorilla-apps-prod-resourcegroup/providers/Microsoft.CognitiveServices/accounts/gorilla-apps-prod-cognitive-formrecognizer/providers/Microsoft.Authorization/roleAssignments/f1b39a3f-269a-d37a-ffad-dafe98e2a8c4]
+module.receipt_proc.azurerm_application_insights.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/components/ge-qc-receipt-proc-insights]
+module.service_api.azurerm_application_insights.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/components/ge-qc-service-api-insights]
+module.web_app.azurerm_application_insights.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/components/ge-qc-web-app-insights]
+module.autofeed_cc.azurerm_application_insights.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/components/ge-qc-autofeed-data-sync-insights]
+module.mobile_api.azurerm_application_insights.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/components/ge-qc-mobile-api-insights]
+module.std_rpt.azurerm_application_insights.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/components/ge-qc-std-rpt-insights]
+module.autofeed_eml.azurerm_application_insights.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/components/ge-qc-autofeed-eml-insights]
+module.agw_nsg[0].data.azurerm_log_analytics_workspace.la: Reading...
+module.web_ep_nsg.data.azurerm_log_analytics_workspace.la: Reading...
+module.kv_appconfig_nsg.data.azurerm_log_analytics_workspace.la: Reading...
+module.kv_cde_secrets_nsg.data.azurerm_log_analytics_workspace.la: Reading...
+module.web_ep_subnet.azurerm_subnet.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-web-ep-snet]
+module.receipt_proc.module.this_web_nsg.data.azurerm_log_analytics_workspace.la: Reading...
+module.service_api.module.this_web_nsg.data.azurerm_log_analytics_workspace.la: Reading...
+module.web_app.module.this_web_nsg.data.azurerm_log_analytics_workspace.la: Reading...
+module.mobile_api.module.this_web_nsg.data.azurerm_log_analytics_workspace.la: Reading...
+module.autofeed_cc.module.this_web_nsg.data.azurerm_log_analytics_workspace.la: Reading...
+module.web_ep_nsg.data.azurerm_log_analytics_workspace.la: Read complete after 1s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.OperationalInsights/workspaces/ge-qc-la]
+module.std_rpt.module.this_web_nsg.data.azurerm_log_analytics_workspace.la: Reading...
+module.autofeed_eml.module.this_web_nsg.data.azurerm_log_analytics_workspace.la: Reading...
+module.kv_cde_secrets_nsg.data.azurerm_log_analytics_workspace.la: Read complete after 1s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.OperationalInsights/workspaces/ge-qc-la]
+module.receipt_proc.module.this_subnet.azurerm_subnet.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-receipt-proc-snet]
+module.agw_nsg[0].data.azurerm_log_analytics_workspace.la: Read complete after 2s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.OperationalInsights/workspaces/ge-qc-la]
+module.web_app.module.this_subnet.azurerm_subnet.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-web-app-snet]
+module.web_app.module.this_web_nsg.data.azurerm_log_analytics_workspace.la: Read complete after 2s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.OperationalInsights/workspaces/ge-qc-la]
+module.service_api.module.this_subnet.azurerm_subnet.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-service-api-snet]
+module.autofeed_eml.module.this_subnet.azurerm_subnet.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-autofeed-eml-snet]
+module.std_rpt.module.this_subnet.azurerm_subnet.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-std-rpt-snet]
+module.mobile_api.module.this_subnet.azurerm_subnet.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-mobile-api-snet]
+module.autofeed_cc.module.this_subnet.azurerm_subnet.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-autofeed-data-sync-snet]
+azurerm_role_assignment.rbac_keyvault_secrets_users_cc_cde: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.KeyVault/vaults/ge-qc-kv-cde-secrets/providers/Microsoft.Authorization/roleAssignments/33a8c2f2-78df-bb2d-300b-51189f4b7514]
+module.kv_appconfig_nsg.data.azurerm_log_analytics_workspace.la: Read complete after 2s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.OperationalInsights/workspaces/ge-qc-la]
+azurerm_role_assignment.rbac_keyvault_secrets_users_cc_app: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.KeyVault/vaults/ge-qc-kv-appconfig/providers/Microsoft.Authorization/roleAssignments/b7b0716a-e2ff-2b06-224f-e2e24b17e870]
+module.gw_subnet.azurerm_subnet.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/GatewaySubnet]
+module.web_app.azurerm_application_insights_standard_web_test.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/webTests/ge-qc-web-app-insights-test]
+module.autofeed_cc.module.this_web_nsg.data.azurerm_log_analytics_workspace.la: Read complete after 1s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.OperationalInsights/workspaces/ge-qc-la]
+module.service_api.azurerm_application_insights_standard_web_test.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/webTests/ge-qc-service-api-insights-test]
+module.receipt_proc.module.this_web_nsg.data.azurerm_log_analytics_workspace.la: Read complete after 2s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.OperationalInsights/workspaces/ge-qc-la]
+module.kv_appconfig_subnet.azurerm_subnet.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-kv-appconfig-snet]
+module.service_api.module.this_web_nsg.data.azurerm_log_analytics_workspace.la: Read complete after 2s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.OperationalInsights/workspaces/ge-qc-la]
+module.devops_agent_subnets[0].azurerm_subnet.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-devops-snet]
+module.sql_subnet.azurerm_subnet.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-sql-snet]
+module.std_rpt.module.this_web_nsg.data.azurerm_log_analytics_workspace.la: Read complete after 1s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.OperationalInsights/workspaces/ge-qc-la]
+module.kv_cde_secrets_subnet.azurerm_subnet.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-kv-cde-secrets-snet]
+module.agw_subnet[0].azurerm_subnet.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-agw-snet]
+module.dns_subnet.azurerm_subnet.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-dns-snet]
+module.redis_subnet[0].azurerm_subnet.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-redis-snet]
+module.cognitive_di_form.azurerm_cognitive_account.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.CognitiveServices/accounts/ge-qc-di]
+module.std_rpt.azurerm_application_insights_standard_web_test.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/webTests/ge-qc-std-rpt-insights-test]
+module.mobile_api.azurerm_application_insights_standard_web_test.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/webTests/ge-qc-mobile-api-insights-test]
+module.web_app.azurerm_monitor_metric_alert.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/metricAlerts/ge-qc-web-app-insights-test]
+module.web_ep_nsg.azurerm_subnet_network_security_group_association.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-web-ep-snet]
+module.receipt_proc.azurerm_windows_web_app.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-receipt-proc-apps]
+module.receipt_proc.module.this_web_nsg.azurerm_subnet_network_security_group_association.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-receipt-proc-snet]
+azurerm_virtual_network_gateway.gw[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworkGateways/ge-qc-gw]
+module.mobile_api.module.this_web_nsg.data.azurerm_log_analytics_workspace.la: Read complete after 2s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.OperationalInsights/workspaces/ge-qc-la]
+module.autofeed_cc.azurerm_windows_web_app.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-autofeed-data-sync-apps]
+module.autofeed_eml.module.this_web_nsg.data.azurerm_log_analytics_workspace.la: Read complete after 2s [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.OperationalInsights/workspaces/ge-qc-la]
+module.autofeed_eml.module.this_web_nsg.azurerm_subnet_network_security_group_association.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-autofeed-eml-snet]
+module.web_app.azurerm_windows_web_app.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-web-app-apps]
+module.std_rpt.module.this_web_nsg.azurerm_subnet_network_security_group_association.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-std-rpt-snet]
+module.std_rpt.azurerm_windows_web_app.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-std-rpt-apps]
+azurerm_private_endpoint.kv_appconfig_endpoint: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-kv-appconfig-ep]
+module.autofeed_cc.module.this_web_nsg.azurerm_subnet_network_security_group_association.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-autofeed-data-sync-snet]
+module.service_api.azurerm_windows_web_app.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-service-api-apps]
+module.web_app.module.this_web_nsg.azurerm_subnet_network_security_group_association.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-web-app-snet]
+module.blob_reporting[0].azurerm_private_endpoint.blob_endpoint: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-rept-pe]
+module.mobile_api.azurerm_windows_web_app.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-mobile-api-apps]
+module.service_api.azurerm_monitor_metric_alert.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/metricAlerts/ge-qc-service-api-insights-test]
+azurerm_private_endpoint.kv_cde_secret_endpoint: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-kv-cde-secret-ep]
+azurerm_private_dns_resolver_inbound_endpoint.dns_resolver_in_ep: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/dnsResolvers/ge-qc-dns-resolver/inboundEndpoints/ge-qc-dns-ep]
+module.kv_appconfig_nsg.azurerm_subnet_network_security_group_association.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-kv-appconfig-snet]
+module.std_rpt.azurerm_monitor_metric_alert.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/metricAlerts/ge-qc-std-rpt-insights-test]
+module.devops_agent[0].azurerm_linux_virtual_machine_scale_set.agent: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Compute/virtualMachineScaleSets/ge-qc-devops-agent-vmss]
+module.service_api.module.this_web_nsg.azurerm_subnet_network_security_group_association.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-service-api-snet]
+azurerm_private_endpoint.reports_queue_endpoint: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-rept-queue-pe]
+module.mobile_api.module.this_web_nsg.azurerm_subnet_network_security_group_association.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-mobile-api-snet]
+module.kv_cde_secrets_nsg.azurerm_subnet_network_security_group_association.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-kv-cde-secrets-snet]
+module.mobile_api.azurerm_monitor_metric_alert.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/metricAlerts/ge-qc-mobile-api-insights-test]
+azurerm_private_endpoint.sql_endpoint: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-sql-ep]
+module.blob[0].azurerm_private_endpoint.blob_endpoint: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-st-pe]
+module.cognitive_di_form.azurerm_private_endpoint.privateendpoint: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-di-pe]
+module.redis[0].azurerm_private_endpoint.redis_endpoint: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-redis-ep]
+azurerm_role_assignment.receipt_storage_id_storage: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Storage/storageAccounts/geqcst/providers/Microsoft.Authorization/roleAssignments/883cf73e-6422-ec1f-661d-c324edde6b19]
+azurerm_role_assignment.sql_server_id_storage: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Storage/storageAccounts/geqcst/providers/Microsoft.Authorization/roleAssignments/da7ad253-7e2f-cc38-0663-4e321d5efcc4]
+module.agw_nsg[0].azurerm_subnet_network_security_group_association.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/subnets/ge-qc-agw-snet]
+azurerm_role_assignment.rbac_cognitive_di: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.CognitiveServices/accounts/ge-qc-di/providers/Microsoft.Authorization/roleAssignments/408c55ac-e45b-28df-58fc-7e5ee0d3233f]
+module.agw_nsg_ds[0].azurerm_monitor_diagnostic_setting.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-agw-nsg|ge-qc-agw-nsg-ds]
+module.web_ep_nsg_ds.azurerm_monitor_diagnostic_setting.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-web-ep-nsg|ge-qc-web-ep-nsg-ds]
+module.kv_cde_secrets_nsg_ds.azurerm_monitor_diagnostic_setting.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-kv-cde-secrets-nsg|ge-qc-kv-cde-secrets-nsg-ds]
+module.kv_appconfig_nsg_ds.azurerm_monitor_diagnostic_setting.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-kv-appconfig-nsg|ge-qc-kv-appconfig-nsg-ds]
+module.agw_nsg[0].azurerm_network_watcher_flow_log.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus/flowLogs/ge-qc-agw-nsg-flow-log]
+module.web_ep_nsg.azurerm_network_watcher_flow_log.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus/flowLogs/ge-qc-web-ep-nsg-flow-log]
+module.kv_cde_secrets_nsg.azurerm_network_watcher_flow_log.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus/flowLogs/ge-qc-kv-cde-secrets-nsg-flow-log]
+module.kv_appconfig_nsg.azurerm_network_watcher_flow_log.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus/flowLogs/ge-qc-kv-appconfig-nsg-flow-log]
+module.cognitive_di_ds.azurerm_monitor_diagnostic_setting.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.CognitiveServices/accounts/ge-qc-di|ge-qc-cognitive-di-ds]
+module.autofeed_cc.module.this_web_nsg_ds.azurerm_monitor_diagnostic_setting.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-autofeed-data-sync-nsg|ge-qc-autofeed-data-sync-nsg-ds]
+module.autofeed_cc.module.this_web_nsg.azurerm_network_watcher_flow_log.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus/flowLogs/ge-qc-autofeed-data-sync-nsg-flow-log]
+module.receipt_proc.module.this_web_nsg_ds.azurerm_monitor_diagnostic_setting.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-receipt-proc-nsg|ge-qc-receipt-proc-nsg-ds]
+module.receipt_proc.module.this_web_nsg.azurerm_network_watcher_flow_log.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus/flowLogs/ge-qc-receipt-proc-nsg-flow-log]
+module.mobile_api.module.this_web_nsg.azurerm_network_watcher_flow_log.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus/flowLogs/ge-qc-mobile-api-nsg-flow-log]
+module.mobile_api.module.this_web_nsg_ds.azurerm_monitor_diagnostic_setting.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-mobile-api-nsg|ge-qc-mobile-api-nsg-ds]
+module.web_app.module.this_web_nsg_ds.azurerm_monitor_diagnostic_setting.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-web-app-nsg|ge-qc-web-app-nsg-ds]
+module.web_app.module.this_web_nsg.azurerm_network_watcher_flow_log.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus/flowLogs/ge-qc-web-app-nsg-flow-log]
+module.std_rpt.module.this_web_nsg.azurerm_network_watcher_flow_log.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus/flowLogs/ge-qc-std-rpt-nsg-flow-log]
+module.std_rpt.module.this_web_nsg_ds.azurerm_monitor_diagnostic_setting.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-std-rpt-nsg|ge-qc-std-rpt-nsg-ds]
+module.autofeed_eml.module.this_web_nsg_ds.azurerm_monitor_diagnostic_setting.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-autofeed-eml-nsg|ge-qc-autofeed-eml-nsg-ds]
+module.autofeed_eml.module.this_web_nsg.azurerm_network_watcher_flow_log.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus/flowLogs/ge-qc-autofeed-eml-nsg-flow-log]
+module.service_api.module.this_web_nsg.azurerm_network_watcher_flow_log.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/networkwatcherrg/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus/flowLogs/ge-qc-service-api-nsg-flow-log]
+module.service_api.module.this_web_nsg_ds.azurerm_monitor_diagnostic_setting.this[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/networkSecurityGroups/ge-qc-service-api-nsg|ge-qc-service-api-nsg-ds]
+module.autofeed_eml.azurerm_windows_web_app.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-autofeed-eml-apps]
+module.service_api.azurerm_monitor_metric_alert.unhealthy_app_alert: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/metricAlerts/ge-qc-service-api-healthcheck]
+module.service_api.azurerm_private_endpoint.privateendpoint: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-service-api-pe]
+module.service_api.azurerm_windows_web_app_slot.this_slots["preprodrelease"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-service-api-apps/slots/preprodrelease]
+module.service_api.azurerm_windows_web_app_slot.this_slots["staging"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-service-api-apps/slots/staging]
+module.service_api.azurerm_monitor_diagnostic_setting.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-service-api-apps|ge-qc-service-api-apps-ds]
+module.web_app.azurerm_monitor_metric_alert.unhealthy_app_alert: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/metricAlerts/ge-qc-web-app-healthcheck]
+module.web_app.azurerm_private_endpoint.privateendpoint: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-web-app-pe]
+module.web_app.azurerm_windows_web_app_slot.this_slots["preprodrelease"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-web-app-apps/slots/preprodrelease]
+module.web_app.azurerm_windows_web_app_slot.this_slots["staging"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-web-app-apps/slots/staging]
+module.web_app.azurerm_monitor_diagnostic_setting.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-web-app-apps|ge-qc-web-app-apps-ds]
+module.autofeed_cc.azurerm_monitor_metric_alert.unhealthy_app_alert: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/metricAlerts/ge-qc-autofeed-data-sync-healthcheck]
+module.autofeed_cc.azurerm_private_endpoint.privateendpoint: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-autofeed-data-sync-pe]
+module.autofeed_cc.azurerm_monitor_diagnostic_setting.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-autofeed-data-sync-apps|ge-qc-autofeed-data-sync-apps-ds]
+module.receipt_proc.azurerm_monitor_metric_alert.unhealthy_app_alert: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/metricAlerts/ge-qc-receipt-proc-healthcheck]
+module.receipt_proc.azurerm_private_endpoint.privateendpoint: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-receipt-proc-pe]
+module.receipt_proc.azurerm_monitor_diagnostic_setting.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-receipt-proc-apps|ge-qc-receipt-proc-apps-ds]
+module.std_rpt.azurerm_monitor_metric_alert.unhealthy_app_alert: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/metricAlerts/ge-qc-std-rpt-healthcheck]
+module.std_rpt.azurerm_private_endpoint.privateendpoint: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-std-rpt-pe]
+module.std_rpt.azurerm_windows_web_app_slot.this_slots["staging"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-std-rpt-apps/slots/staging]
+module.std_rpt.azurerm_windows_web_app_slot.this_slots["preprodrelease"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-std-rpt-apps/slots/preprodrelease]
+module.std_rpt.azurerm_monitor_diagnostic_setting.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-std-rpt-apps|ge-qc-std-rpt-apps-ds]
+module.autofeed_eml.azurerm_private_endpoint.privateendpoint: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-autofeed-eml-pe]
+module.autofeed_eml.azurerm_monitor_metric_alert.unhealthy_app_alert: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/metricAlerts/ge-qc-autofeed-eml-healthcheck]
+module.autofeed_eml.azurerm_monitor_diagnostic_setting.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-autofeed-eml-apps|ge-qc-autofeed-eml-apps-ds]
+module.mobile_api.azurerm_private_endpoint.privateendpoint: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-mobile-api-pe]
+module.mobile_api.azurerm_monitor_metric_alert.unhealthy_app_alert: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Insights/metricAlerts/ge-qc-mobile-api-healthcheck]
+module.mobile_api.azurerm_windows_web_app_slot.this_slots["staging"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-mobile-api-apps/slots/staging]
+module.mobile_api.azurerm_windows_web_app_slot.this_slots["preprodrelease"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-mobile-api-apps/slots/preprodrelease]
+module.mobile_api.azurerm_monitor_diagnostic_setting.this: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-mobile-api-apps|ge-qc-mobile-api-apps-ds]
+module.service_api.azurerm_private_endpoint.privateendpoint_slot["staging"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-service-api-staging-pe]
+module.service_api.azurerm_private_endpoint.privateendpoint_slot["preprodrelease"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-service-api-preprodrelease-pe]
+module.service_api.azurerm_monitor_diagnostic_setting.this_slot["preprodrelease"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-service-api-apps/slots/preprodrelease|ge-qc-service-api-apps-preprodrelease-ds]
+module.service_api.azurerm_monitor_diagnostic_setting.this_slot["staging"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-service-api-apps/slots/staging|ge-qc-service-api-apps-staging-ds]
+module.web_app.azurerm_private_endpoint.privateendpoint_slot["preprodrelease"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-web-app-preprodrelease-pe]
+module.web_app.azurerm_private_endpoint.privateendpoint_slot["staging"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-web-app-staging-pe]
+module.web_app.azurerm_monitor_diagnostic_setting.this_slot["staging"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-web-app-apps/slots/staging|ge-qc-web-app-apps-staging-ds]
+module.web_app.azurerm_monitor_diagnostic_setting.this_slot["preprodrelease"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-web-app-apps/slots/preprodrelease|ge-qc-web-app-apps-preprodrelease-ds]
+module.mobile_api.azurerm_private_endpoint.privateendpoint_slot["staging"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-mobile-api-staging-pe]
+module.mobile_api.azurerm_private_endpoint.privateendpoint_slot["preprodrelease"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-mobile-api-preprodrelease-pe]
+module.mobile_api.azurerm_monitor_diagnostic_setting.this_slot["preprodrelease"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-mobile-api-apps/slots/preprodrelease|ge-qc-mobile-api-apps-preprodrelease-ds]
+module.mobile_api.azurerm_monitor_diagnostic_setting.this_slot["staging"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-mobile-api-apps/slots/staging|ge-qc-mobile-api-apps-staging-ds]
+module.std_rpt.azurerm_private_endpoint.privateendpoint_slot["preprodrelease"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-std-rpt-preprodrelease-pe]
+module.std_rpt.azurerm_private_endpoint.privateendpoint_slot["staging"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/privateEndpoints/ge-qc-std-rpt-staging-pe]
+module.std_rpt.azurerm_monitor_diagnostic_setting.this_slot["staging"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-std-rpt-apps/slots/staging|ge-qc-std-rpt-apps-staging-ds]
+module.std_rpt.azurerm_monitor_diagnostic_setting.this_slot["preprodrelease"]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-std-rpt-apps/slots/preprodrelease|ge-qc-std-rpt-apps-preprodrelease-ds]
+azurerm_application_gateway.network[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/applicationGateways/ge-qc-agw]
+azurerm_monitor_diagnostic_setting.agw_logs[0]: Refreshing state... [id=/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/applicationGateways/ge-qc-agw|ge-qc-agw-ds]
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  ~ update in-place
+  - destroy
+
+Terraform will perform the following actions:
+
+  # azurerm_virtual_network_peering.with_new will be updated in-place
+  ~ resource "azurerm_virtual_network_peering" "with_new" {
+      ~ allow_gateway_transit                  = false -> true
+        id                                     = "/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/gorilla-apps-qc-resoucegroup/providers/Microsoft.Network/virtualNetworks/gorilla-apps-qc-reports-virtual-network/virtualNetworkPeerings/ge-qc-with-new"
+        name                                   = "ge-qc-with-new"
+        # (10 unchanged attributes hidden)
+    }
+
+  # azurerm_virtual_network_peering.with_old will be updated in-place
+  ~ resource "azurerm_virtual_network_peering" "with_old" {
+      ~ allow_forwarded_traffic                = false -> true
+        id                                     = "/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Network/virtualNetworks/ge-qc-vnet/virtualNetworkPeerings/ge-qc-with-old"
+        name                                   = "ge-qc-with-old"
+        # (10 unchanged attributes hidden)
+    }
+
+  # module.autofeed_cc.azurerm_windows_web_app.this will be updated in-place
+  ~ resource "azurerm_windows_web_app" "this" {
+        id                                             = "/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-autofeed-data-sync-apps"
+        name                                           = "ge-qc-autofeed-data-sync-apps"
+      ~ public_network_access_enabled                  = true -> false
+        tags                                           = {
+            "hidden-link: /app-insights-conn-string"               = "InstrumentationKey=9c515a0f-bcff-4a57-ae92-43a473052a90;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/;ApplicationId=ff99a485-8b29-4874-aed1-622e4bfa2a02"
+            "hidden-link: /app-insights-instrumentation-key"       = "9c515a0f-bcff-4a57-ae92-43a473052a90"
+            "hidden-link: /app-insights-resource-id"               = "/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/microsoft.insights/components/ge-qc-autofeed-data-sync-insights"
+            "hidden-related:diagnostics/changeAnalysisScanEnabled" = "true"
+        }
+        # (24 unchanged attributes hidden)
+
+        # (14 unchanged blocks hidden)
+    }
+
+  # module.cognitive_di_ds.azurerm_monitor_diagnostic_setting.this[0] will be updated in-place
+  ~ resource "azurerm_monitor_diagnostic_setting" "this" {
+        id                             = "/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.CognitiveServices/accounts/ge-qc-di|ge-qc-cognitive-di-ds"
+        name                           = "ge-qc-cognitive-di-ds"
+        # (6 unchanged attributes hidden)
+
+      - metric {
+          - category = "AllMetrics" -> null
+          - enabled  = false -> null
+
+          - retention_policy {
+              - days    = 0 -> null
+              - enabled = false -> null
+            }
+        }
+
+        # (3 unchanged blocks hidden)
+    }
+
+  # module.data_factory[0].azurerm_data_factory.this will be destroyed
+  # (because azurerm_data_factory.this is not in configuration)
+  - resource "azurerm_data_factory" "this" {
+      - id                               = "/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.DataFactory/factories/ge-qc-adf" -> null
+      - location                         = "eastus" -> null
+      - managed_virtual_network_enabled  = false -> null
+      - name                             = "ge-qc-adf" -> null
+      - public_network_enabled           = true -> null
+      - resource_group_name              = "ge-qc-rg" -> null
+      - tags                             = {} -> null
+        # (3 unchanged attributes hidden)
+
+      - identity {
+          - identity_ids = [] -> null
+          - principal_id = "1325f162-44ef-4ea2-b618-d58bf710a3f8" -> null
+          - tenant_id    = "59acb64d-7f3d-4920-b40e-e3567a44d24e" -> null
+          - type         = "SystemAssigned" -> null
+        }
+    }
+
+  # module.web_app.azurerm_windows_web_app.this will be updated in-place
+  ~ resource "azurerm_windows_web_app" "this" {
+        id                                             = "/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/Microsoft.Web/sites/ge-qc-web-app-apps"
+        name                                           = "ge-qc-web-app-apps"
+      ~ public_network_access_enabled                  = true -> false
+        tags                                           = {
+            "hidden-link: /app-insights-conn-string"               = "InstrumentationKey=96f55ad6-010a-446a-8924-a70af21cdf90;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/;ApplicationId=0cef57d4-98af-4008-8adb-d4ef34abc784"
+            "hidden-link: /app-insights-instrumentation-key"       = "96f55ad6-010a-446a-8924-a70af21cdf90"
+            "hidden-link: /app-insights-resource-id"               = "/subscriptions/6475d2e4-43e2-4de5-b14f-6a2504112209/resourceGroups/ge-qc-rg/providers/microsoft.insights/components/ge-qc-web-app-insights"
+            "hidden-related:diagnostics/changeAnalysisScanEnabled" = "true"
+        }
+        # (24 unchanged attributes hidden)
+
+        # (15 unchanged blocks hidden)
+    }
+
+Plan: 0 to add, 5 to change, 1 to destroy.
+
+Warning: Value for undeclared variable
+
+The root module does not declare a variable named "service_plan_sku" but a value was found in file "qc.tfvars". If you meant
+to use this value, add a "variable" block to the configuration.
+
+To silence these warnings, use TF_VAR_... environment variables to provide certain "global" settings to all configurations in
+your organization. To reduce the verbosity of these warnings, use the -compact-warnings option.
+
+─────────────────────────────────────────────────────────────────────────────
+
+Note: You didn't use the -out option to save this plan, so Terraform can't
+guarantee to take exactly these actions if you run "terraform apply" now.
+Releasing state lock. This may take a few moments...

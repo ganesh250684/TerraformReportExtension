@@ -1,0 +1,59 @@
+# Node modules
+node_modules/
+out/
+dist/
+
+# VS Code
+.vscode/
+.vscode-test/
+*.vsix
+
+# TypeScript
+*.tsbuildinfo
+
+# Build outputs
+*.js
+*.js.map
+*.d.ts
+!src/**/*.d.ts
+
+# Test coverage
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Generated reports (keep samples)
+Terraform_Plan_*_Report_*.pdf
+Terraform_Plan_*_Report_*.html
+!samples/**
