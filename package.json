@@ -3,7 +3,7 @@
   "displayName": "Terraform Report Generator",
   "description": "Transform Terraform plan output into beautiful, human-readable PDF reports with AI-powered analysis",
   "version": "1.0.0",
-  "publisher": "ganesh250684",
+  "publisher": "cloudcraft",
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -140,5 +140,7 @@
     "url": "https://github.com/ganesh250684/TerraformReportExtension/issues"
   },
   "homepage": "https://github.com/ganesh250684/TerraformReportExtension#readme",
+  "publisherDisplayName": "CloudCraft",
+  "shortDescription": "Generate professional Terraform plan reports in seconds (offline-first).",
   "license": "MIT"
 }
