@@ -2,9 +2,8 @@
   "name": "terraform-report-generator",
   "displayName": "Terraform Report Generator",
   "description": "Transform Terraform plan output into beautiful, human-readable PDF reports with AI-powered analysis",
-  "version": "0.1.0",
-  "publisher": "your-publisher-name",
-  "icon": "resources/icon.png",
+  "version": "1.0.0",
+  "publisher": "ganesh250684",
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -23,12 +22,7 @@
     "iac",
     "documentation"
   ],
-  "activationEvents": [
-    "onCommand:terraform-report.generate",
-    "onCommand:terraform-report.generateBasic",
-    "onCommand:terraform-report.generateAI",
-    "onLanguage:terraform"
-  ],
+  "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
@@ -129,6 +123,7 @@
     "@types/vscode": "^1.80.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
+    "@vscode/vsce": "^2.22.0",
     "eslint": "^8.45.0",
     "typescript": "^5.1.0",
     "@vscode/test-electron": "^2.3.0"
@@ -139,11 +134,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/terraform-report-generator.git"
+    "url": "https://github.com/ganesh250684/TerraformReportExtension.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/terraform-report-generator/issues"
+    "url": "https://github.com/ganesh250684/TerraformReportExtension/issues"
   },
-  "homepage": "https://github.com/yourusername/terraform-report-generator#readme",
+  "homepage": "https://github.com/ganesh250684/TerraformReportExtension#readme",
   "license": "MIT"
 }
