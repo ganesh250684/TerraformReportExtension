@@ -2,7 +2,9 @@
 
 > **Stop squinting at Terraform plan output!** Transform cryptic terminal text into beautiful, professional PDF reports in seconds.
 
-[![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Marketplace-blue)](https://marketplace.visualstudio.com/)
+[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/cloudcraft.terraform-report-generator)](https://marketplace.visualstudio.com/items?itemName=cloudcraft.terraform-report-generator)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/cloudcraft.terraform-report-generator)](https://marketplace.visualstudio.com/items?itemName=cloudcraft.terraform-report-generator)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/cloudcraft.terraform-report-generator)](https://marketplace.visualstudio.com/items?itemName=cloudcraft.terraform-report-generator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub](https://img.shields.io/github/stars/ganesh250684/TerraformReportExtension?style=social)](https://github.com/ganesh250684/TerraformReportExtension)
 
