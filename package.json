@@ -2,7 +2,7 @@
   "name": "terraform-report-generator",
   "displayName": "Terraform Report Generator",
   "description": "Transform Terraform plan output into beautiful, human-readable PDF reports with AI-powered analysis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "cloudcraft",
   "engines": {
     "vscode": "^1.80.0"
@@ -63,13 +63,21 @@
       "properties": {
         "terraformReport.mode": {
           "type": "string",
-          "enum": ["auto", "basic", "ai"],
+          "enum": [
+            "auto",
+            "basic",
+            "ai"
+          ],
           "default": "auto",
           "description": "Report generation mode: auto-detect complexity, always basic, or always AI"
         },
         "terraformReport.aiProvider": {
           "type": "string",
-          "enum": ["builtin", "openai", "none"],
+          "enum": [
+            "builtin",
+            "openai",
+            "none"
+          ],
           "default": "builtin",
           "description": "AI provider: use built-in service, your own OpenAI key, or disable AI"
         },
@@ -90,7 +98,11 @@
         },
         "terraformReport.defaultExport": {
           "type": "string",
-          "enum": ["pdf", "markdown", "both"],
+          "enum": [
+            "pdf",
+            "markdown",
+            "both"
+          ],
           "default": "pdf",
           "description": "Default export format"
         },
@@ -101,7 +113,11 @@
         },
         "terraformReport.templateStyle": {
           "type": "string",
-          "enum": ["professional", "minimal", "detailed"],
+          "enum": [
+            "professional",
+            "minimal",
+            "detailed"
+          ],
           "default": "professional",
           "description": "Report template style"
         }
