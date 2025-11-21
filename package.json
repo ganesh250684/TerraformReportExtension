@@ -2,7 +2,7 @@
   "name": "terraform-report-generator",
   "displayName": "Terraform Report Generator",
   "description": "Transform Terraform plan output into beautiful, human-readable PDF reports with AI-powered analysis",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "cloudcraft",
   "engines": {
     "vscode": "^1.80.0"
