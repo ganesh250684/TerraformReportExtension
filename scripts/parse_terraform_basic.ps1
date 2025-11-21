@@ -159,6 +159,14 @@ Use the AI-enhanced version of this tool.
 **Report Type:** Basic (No AI)  
 **Parser Version:** 1.0  
 **Generation Time:** $(Get-Date -Format "yyyy-MM-dd HH:mm:ss")
+
+---
+
+<div align="center">
+
+*Generated using:* [**Terraform Report Generator for VS Code**](https://marketplace.visualstudio.com/items?itemName=cloudcraft.terraform-report-generator)
+
+</div>
 "@
 
 # Save markdown

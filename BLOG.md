@@ -492,7 +492,11 @@ I built this tool because I needed it. Thousands of engineers needed it. Maybe y
 
 **Stop wasting time. Start shipping faster.**
 
-[Install Now - It's Free](https://marketplace.visualstudio.com/)
+[Install Now - It's Free](https://marketplace.visualstudio.com/items?itemName=cloudcraft.terraform-report-generator)
+
+---
+
+*Generated using:* [**Terraform Report Generator for VS Code**](https://marketplace.visualstudio.com/items?itemName=cloudcraft.terraform-report-generator)
 
 </div>
 
